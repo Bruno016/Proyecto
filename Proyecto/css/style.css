@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+
+/**{
+    overflow-x: hidden;
+}*/
+
 
 
 .logo{
@@ -13,14 +19,22 @@
     border-color: black;
 }
 
+.div-carousel{
+    margin-top: 10px;
+}
+
 .container-main{
-    margin: 10px auto;
-    width: 100%;
+    margin: 40px auto;
+    width: 100%!important;
 }
 
 h1{
     font-size: 1.5rem;
-    margin: 10px 10px;
+    margin: 40px 10px;
+}
+
+.margin{
+    margin: 10px 10px 10px 10px;
 }
 
 .img-main{
@@ -32,6 +46,26 @@ h1{
 .txt-center{
     text-align: center;
 }
+
+.container-samsung{
+    text-align: center;
+    margin: 30px;
+}
+    .img-samsung{
+        width: 100%;
+    }
+
+.icon{
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+}
+    .icon-h3{
+        font-size: 1.5rem;
+    }
+        .icon-p{
+            font-size: 0.9rem;
+        }
 
 .iframe{
     text-align: center;
@@ -51,6 +85,35 @@ footer{
         width: 40px;
         height: 40px;
     }
+        .p-footer{
+            margin: 1px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 400;
+            font-size: 0.8rem;
+        }
+            .ul-footer{
+                list-style: none;
+                font-size: 0.7rem;
+                margin-top: 5px;
+            }
+                .btn-footer{
+                    font-size: 0.8rem;
+                    border-color: black;
+                    color: black;
+                }
+                    .btn-footer:hover{
+                        background-color: rgb(8, 103, 144);
+                        border-color: rgb(8, 103, 144);
+                    }
+                    .input-footer{
+                        font-size: 0.8rem;
+                    }
+
+h2{
+    font-size: 1rem;
+    margin: auto;
+}
+
 
 /*media queries*/
 
@@ -61,5 +124,14 @@ footer{
     .container-main{
         width: 80%;
     }
+}
+
+@media only screen and (max-width: 768px){
+    .icon-h3{
+        font-size: 1rem;
+    }
+        .icon-p{
+            font-size: 0.7rem;
+        }
 }
 

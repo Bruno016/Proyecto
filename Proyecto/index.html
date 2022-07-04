@@ -55,7 +55,19 @@
         </nav>
 
     <!-- TERMINA LA NAVBAR-->
-
+    <div id="carouselExampleSlidesOnly" class="carousel slide div-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/header1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/header2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/header3.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+    </div>
     <!-- EMPIZA MAIN -->
         <main>
             <h1>Productos más vistos...</h1>
@@ -69,7 +81,7 @@
                 </div>
             </div>
             <div class="card col-sm-12 col-md-6 col-lg-3 medium">
-                <img src="img/smartwatch1.jpg" class="card-img-top img-main" alt="...">
+                <img src="img/smartwatch3.png" class="card-img-top img-main" alt="...">
                 <div class="card-body txt-center">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -131,6 +143,27 @@
         </main>
     <!-- TERMINA MAIN -->
 
+    <div class="container-samsung">
+        <img class="img-samsung" src="img/samsung-galaxy-s93-1.jpg" alt="">
+    </div>
+
+    <div class="row icon">
+        <div class="container-fluid col-sm-4 col-md-4 col-lg-4">
+            <img src="img/Card-icon.png" alt="">
+            <h3 class="icon-h3">Paga con tarjetas</h3>
+            <p class="icon-p">Por la web o en nuestro local, paga con el medio de pago que prefieras.</p>
+        </div>
+        <div class="container-fluid col-sm-4 col-md-4 col-lg-4">
+            <img src="img/Box-icon.png" alt="">
+            <h3 class="icon-h3">Envios gratis desde $1500</h3>
+            <p class="icon-p">Disfruta de tus compras con envios gratis.</p>
+        </div>
+        <div class="container-fluid col-sm-4 col-md-4 col-lg-4">
+            <img src="img/Security-icon.png" alt="">
+            <h3 class="icon-h3">Seguridad, siempre</h3>
+            <p class="icon-p">Tus compras, siempre protegidas! No te gusto algo? Devuelvelo!</p>
+        </div>
+    </div>
     <!--comienza iframe-->
     <section class="row iframe">
         <div class="col-sm-12 col-md-12 col-lg-12">
@@ -142,13 +175,29 @@
 
     <!--comienza footer-->
     <footer class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="container-fluid col-sm-4 col-md-4 col-lg-4">
+            <p class="p-footer">Seguinos en:</p>
         <a href="https://es-la.facebook.com/" target="_blank"><!--target es para que abra la pestaña a parte-->
             <img src="img/facebookicon.png" alt="icono de facebook">
         </a>
         <a href="https://www.instagram.com/" target="_blank">
             <img src="img/instagramicon.png" alt="Icono de instagram">
         </a>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+			<ul class="ul-footer">
+				<li>Politica de Privacidad</li>
+				<li>Terminos y Condiciones</li>
+				<li>Copyright ©</li>
+			</ul>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <h2>Newsletter</h2>
+            <p class="p-footer">Suscribete y recibe todas nuestras novedades!</p>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 input-footer" type="search" placeholder="Ingresa tu email" aria-label="Search">
+                <button class="btn btn-outline-success btn-footer" type="submit">Suscribirse</button>
+            </form>
         </div>
     </footer>
 
