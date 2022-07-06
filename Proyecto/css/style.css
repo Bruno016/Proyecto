@@ -11,6 +11,10 @@
     width: 150px;
 }
 
+.border-none{
+    border: none;
+}
+
 .bg-nav{
     background-color: aliceblue;
 }
@@ -114,10 +118,31 @@ h2{
     margin: auto;
 }
 
+/*css para smartwatches*/
+
+.flex{
+    display: flex;
+}
+
+.ul-sw{
+    margin: 30px 0px 0px 10px;
+}
+
+.div-card{
+    width: 80%;
+    margin: 30px 0px 0px 20px;
+}
 
 /*media queries*/
 
 @media only screen and (max-width: 992px){
+
+    .txt-div{
+        font-size: 0.8rem;
+    }
+    .logo{
+        width: 100px;
+    }
     .medium{
         margin-top: 10px;
     }
@@ -127,6 +152,19 @@ h2{
 }
 
 @media only screen and (max-width: 768px){
+
+    .footer-icon{
+        margin-top: 18px;
+    }
+    .ul-footer{
+        margin-top: 20px;
+    }
+    .txt-div{
+        font-size: 0.6rem;
+    }
+    .logo{
+        width: 75px;
+    }
     .icon-h3{
         font-size: 1rem;
     }
